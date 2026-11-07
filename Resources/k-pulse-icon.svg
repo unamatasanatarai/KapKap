@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 240 240">
+  <defs>
+    <linearGradient id="core" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dce8ff"/>
+      <stop offset="1" stop-color="#8eb0f7"/>
+    </linearGradient>
+    <mask id="kHole" maskUnits="userSpaceOnUse" x="0" y="0" width="240" height="240">
+      <rect width="240" height="240" fill="#fff"/>
+      <path transform="translate(-1.5 0)" fill="#000" d="M100 98 H111 V117 L128 98 H142 L121 121 L143 142 H129 L113 124 L111 126 V142 H100 Z"/>
+    </mask>
+  </defs>
+  <circle cx="120" cy="120" r="116" fill="none" stroke="#d9e6ff" stroke-width="1.5"/>
+  <circle cx="120" cy="120" r="102" fill="none" stroke="#c2d6ff" stroke-width="2"/>
+  <circle cx="120" cy="120" r="88" fill="none" stroke="#a6c3fc" stroke-width="2.5"/>
+  <circle cx="120" cy="120" r="72" fill="url(#core)" mask="url(#kHole)"/>
+</svg>
